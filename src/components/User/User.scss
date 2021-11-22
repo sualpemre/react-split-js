@@ -1,0 +1,29 @@
+$white-color : #fff;
+$background-color  : rgba(0, 0, 0, 0.1);
+
+
+.user{
+    display: flex;
+    align-items: center;
+    grid-column-gap: 10px;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 10px;
+
+    .user-img{
+        float:left;
+        img{
+            border-radius:50%;
+            width: 50px;
+        }
+    }
+    .user-name{
+        color:$white-color;
+        vertical-align: middle;
+    }
+}
+
+.user:hover{
+    background-color: $background-color;
+
+}
